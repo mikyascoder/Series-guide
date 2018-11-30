@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    >
+
+
+    <EditText
+        android:id="@+id/searchbox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="10"
+        android:inputType="text"
+
+        android:textSize="20sp"
+        tools:hint="Search here" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/searchtoadd"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Search "
+        android:textSize="20sp"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:id="@+id/searchimage"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/addtolist"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Add Series"
+        android:textSize="20sp"
+
+
+
+
+        />
+
+</LinearLayout>

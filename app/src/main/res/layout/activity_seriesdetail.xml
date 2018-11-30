@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    >
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:id="@+id/imageee"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pilot"
+        android:layout_weight="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Pilot"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_description"
+        android:layout_weight="45"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Game of thrones"
+        android:textSize="20sp"
+
+        />
+
+</LinearLayout>

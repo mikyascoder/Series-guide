@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Series_guide</string>
+    <string name="series_title_">Suits</string>
+    <string name="release">Jun 23,2011</string>
+    <string name="releasedate">release date</string>
+    <string name="episode">episode</string>
+    <string name="title_activity_series_detail">series_detail</string>
+    <string name="title_activity_episode_list">EpisodeList</string>
+</resources>

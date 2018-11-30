@@ -1,0 +1,68 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:id="@+id/ep_parentlayout"
+    android:layout_marginBottom="30sp">
+    <CheckBox
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="7">
+        <TextView
+            android:id="@+id/eptitle"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:text="text 1"
+            android:textSize="20sp"
+
+            />
+        <TextView
+            android:layout_marginTop="5sp"
+            android:id="@+id/epreleasedate"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:text="text 2"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/episode_numb"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/favorite"
+            android:text="1"
+            android:textSize="20sp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:src="@drawable/ic_more_vert_black_24dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
